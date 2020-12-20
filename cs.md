@@ -14,6 +14,8 @@ Parallel Fast Tetrahedral Meshing: https://auy86.github.io/fTetWild/
 
 Approximating Differential Equations via Deep Neural Network: https://github.com/Dahoas/DeepGalerkinMethod
 
+Sentiment Analysis with BERT: https://github.com/Dahoas/Dahoas.github.io/blob/main/Presentation.pdf
+
 ## Web Development
 
 Pittsburgh Pawngrabbers: https://github.com/Dahoas/pghpawngrabbers
