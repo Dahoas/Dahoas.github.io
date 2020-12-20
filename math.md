@@ -8,6 +8,8 @@ filename: index.md
 
 Sharp Khinchin-type inequalities for symmetric discrete uniform random variables: https://arxiv.org/abs/1912.13345
 
+My Thesis: https://github.com/Dahoas/mastersThesis
+
 ## Problems and Notes
 
 Stochastic Calculus: https://github.com/Dahoas/StoCalc
