@@ -4,4 +4,6 @@ layout: template
 filename: index.md
 ---
 
-##Math
+##Papers
+
+Sharp Khinchin-type inequalities for symmetric discrete uniform random variables: https://arxiv.org/abs/1912.13345
