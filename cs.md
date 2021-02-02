@@ -16,6 +16,10 @@ Approximating Differential Equations via Deep Neural Network: https://github.com
 
 Sentiment Analysis with BERT: https://github.com/Dahoas/Dahoas.github.io/blob/main/Presentation.pdf
 
+## Logic 
+
+Visual Proof Tree Latex Generator: https://github.com/Dahoas/ProofTrees
+
 ## Web Development
 
 Pittsburgh Pawngrabbers: https://github.com/Dahoas/pghpawngrabbers
