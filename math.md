@@ -6,6 +6,8 @@ filename: index.md
 
 ## Papers
 
+Khinchin-type inequalities via Hadamard's factorisation: 
+
 Sharp Khinchin-type inequalities for symmetric discrete uniform random variables: https://arxiv.org/abs/1912.13345
 
 My Thesis: https://github.com/Dahoas/mastersThesis
