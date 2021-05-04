@@ -12,6 +12,8 @@ Sharp Khinchin-type inequalities for symmetric discrete uniform random variables
 
 My Thesis: <a href="https://github.com/Dahoas/Notes/blob/master/TkoczResearch/mastersThesis/Draft%203/thesis_draft_3.pdf">Thesis</a>
 
+On the Coarea Formula: <a href="https://github.com/Dahoas/Notes/blob/master/Spring%202020%20and%20Prior/CoAreaReport.pdf">Link</a>
+
 ## Problems and Notes
 
 Notes: <a href="https://github.com/Dahoas/Notes">Link</a>
