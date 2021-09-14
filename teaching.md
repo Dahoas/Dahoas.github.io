@@ -11,6 +11,6 @@ Math is hard. Let's do it together.
 ## Classes
 
 - Math 1551: Calculus 1, Fall 2021
-- - Office hours link: <a href="https://bluejeans.com/4639550029">Link</a>
+  - Office hours link: <a href="https://bluejeans.com/4639550029">Link</a>
 
 <br/>
