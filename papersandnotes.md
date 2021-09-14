@@ -14,7 +14,7 @@ My Thesis on Sharp Khintchine type Inequalities and some New Results <a href="ht
 
 On the Coarea Formula <a href="https://github.com/Dahoas/Notes/blob/master/Spring%202020%20and%20Prior/CoAreaReport.pdf">[pdf]</a>
 
-\\
+\
 
 ## Problems and Notes
 

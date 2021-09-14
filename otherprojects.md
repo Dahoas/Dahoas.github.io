@@ -10,25 +10,25 @@ Nonisometric Flows on Planar Curves: <a href="https://github.com/Dahoas/DDGFlows
 
 Parallel Fast Tetrahedral Meshing: <a href="https://auy86.github.io/fTetWild/">Link</a>
 
-\\
+\
 
 ## Logic
 
 Visual Proof Tree Latex Generator: <a href="https://github.com/Dahoas/ProofTrees">Link</a>
 
-\\
+\
 
 ## Web Development
 
 Pittsburgh Pawngrabbers: <a href="https://github.com/Dahoas/pghpawngrabbers">Link</a>
 
-\\
+\
 
 ## Philosophy
 
 A Reivew of Max Tegmark's Ideas on a Theory of Everything: <a href="https://github.com/Dahoas/Dahoas.github.io/blob/main/80_100_Final_Rough_Draft.pdf">[pdf]</a>
 
-\\
+\
 
 ## Automated Theorem Proving
 
