@@ -4,7 +4,7 @@ layout: template
 filename: index.md
 ---
 
-<img src="alexh.jpg" class="portrait">
+<img src="artifacts/alexh.jpg" class="portrait">
 
 <div>
 ## About
