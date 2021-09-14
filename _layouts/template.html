@@ -66,7 +66,57 @@
       object-fit:cover;
       border-radius:50%;
     }
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 140px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 150%;
+      left: 50%;
+      margin-left: -75px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
     </style>
+
+    <script>
+      function myFunction() {
+        navigator.clipboard.writeText("alexdahoas@gmail.com");
+        var tooltip = document.getElementById("myTooltip");
+        tooltip.innerHTML = "Copied: " + "alexdahoas@gmail.com";
+      }
+
+      function outFunc() {
+        var tooltip = document.getElementById("myTooltip");
+        tooltip.innerHTML = "Copy to clipboard";
+      }
+      </script>
 
   </head>
 
@@ -101,6 +151,13 @@
           <a href="https://sites.gatech.edu/ahavrilla/"><img src="artifacts/gatech.jpeg" class="myimg"></a>
           &nbsp;
           <a href="https://twitter.com/Dahoas1"><img src="artifacts/twitter.png" class="myimg"></a>
+          &nbsp;
+          <div class="tooltip">
+            <button onclick="myFunction()" onmouseout="outFunc()">
+              <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+              <img src="artifacts/gmail.png" class="myimg">
+              </button>
+            </div>
         </div>
       </footer>
     </div>
