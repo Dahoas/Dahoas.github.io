@@ -12,107 +12,106 @@
     />
 
     <style>
-    .button {
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      background-color: #023763;
-      border-radius: 50%;
-    }
-    .box {
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: left;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      background-color: #023763;
-      border-radius: 8px;
-    }
-    body {
-      background-image: url("artifacts/abstractlandscape.png");
-    }
-     /* unvisited link */
-    a:link {
-      color: rgb(11, 217, 224);
-    }
+      .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        background-color: #023763;
+        border-radius: 50%;
+      }
+      .box {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: left;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: #023763;
+        border-radius: 8px;
+      }
+      body {
+        background-image: url("artifacts/abstractlandscape.png");
+      }
+      /* unvisited link */
+      a:link {
+        color: rgb(11, 217, 224);
+      }
 
-    /* visited link */
-    a:visited {
-      color: rgb(11, 217, 224);
-    }
+      /* visited link */
+      a:visited {
+        color: rgb(11, 217, 224);
+      }
 
-    /* mouse over link */
-    a:hover {
-      color: rgb(11, 217, 224);
-    }
+      /* mouse over link */
+      a:hover {
+        color: rgb(11, 217, 224);
+      }
 
-    /* selected link */
-    a:active {
-      color: rgb(11, 217, 224);
-    }
-    .light-blue {
-      color:rgb(11, 217, 224);
-      font-size: 16px;
-    }
-    .myimg{
-      width:50px;
-      height:50px;
-      object-fit:cover;
-      border-radius:50%;
-    }
-    .tooltip {
-      position: relative;
-      display: inline-block;
-    }
+      /* selected link */
+      a:active {
+        color: rgb(11, 217, 224);
+      }
+      .light-blue {
+        color: rgb(11, 217, 224);
+        font-size: 16px;
+      }
+      .myimg {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .tooltip {
+        position: relative;
+        display: inline-block;
+      }
 
-    .tooltip .tooltiptext {
-      visibility: hidden;
-      width: 140px;
-      background-color: #555;
-      color: #fff;
-      text-align: center;
-      border-radius: 6px;
-      padding: 5px;
-      position: absolute;
-      z-index: 1;
-      bottom: 150%;
-      left: 50%;
-      margin-left: -75px;
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 140px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        position: absolute;
+        z-index: 1;
+        bottom: 150%;
+        left: 50%;
+        margin-left: -75px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
 
-    .tooltip .tooltiptext::after {
-      content: "";
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      margin-left: -5px;
-      border-width: 5px;
-      border-style: solid;
-      border-color: #555 transparent transparent transparent;
-    }
+      .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+      }
 
-    .tooltip:hover .tooltiptext {
-      visibility: visible;
-      opacity: 1;
-    }
-    .portrait{
-      width:300px;
-      height:300px;
-      border-radius:50%;
-      float: right;
-    }
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+      }
+      .portrait {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        float: right;
+      }
     </style>
 
     <script>
@@ -126,20 +125,21 @@
         var tooltip = document.getElementById("myTooltip");
         tooltip.innerHTML = "Copy to clipboard";
       }
-      </script>
-
+    </script>
   </head>
 
   <body>
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
       <header class="inner">
-
-
         <a href="index"><button class="button">About</button></a>
         <a href="mlresearch"><button class="button">ML Research</button></a>
-        <a href="otherprojects"><button class="button">Other Projects</button></a>
-        <a href="papersandnotes"><button class="button">Papers and Notes</button></a>
+        <a href="otherprojects"
+          ><button class="button">Other Projects</button></a
+        >
+        <a href="papersandnotes"
+          ><button class="button">Papers and Notes</button></a
+        >
         <a href="teaching"><button class="button">Teaching</button></a>
       </header>
     </div>
@@ -147,32 +147,36 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <div id="box" class="box">
-          {{ content }}
-        </div>
+        <div id="box" class="box">{{ content }}</div>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-
-
         <div id="box" class="box">
-          <a href="https://sites.gatech.edu/ahavrilla/"><img src="artifacts/gatech.jpeg" class="myimg"></a>
+          <a href="https://sites.gatech.edu/ahavrilla/"
+            ><img src="artifacts/gatech.jpeg" class="myimg"
+          /></a>
           &nbsp;
-          <a href="https://twitter.com/Dahoas1"><img src="artifacts/twitter.png" class="myimg"></a>
+          <a href="https://twitter.com/Dahoas1"
+            ><img src="artifacts/twitter.png" class="myimg"
+          /></a>
           &nbsp;
-          <a href="https://github.com/Dahoas"><img src="artifacts/github.png" class="myimg"></a>
+          <a href="https://github.com/Dahoas"
+            ><img src="artifacts/github.png" class="myimg"
+          /></a>
           &nbsp;
-          <a href="https://www.youtube.com/user/Dahoas/videos"><img src="artifacts/youtube.png" class="myimg"></a>
+          <a href="https://www.youtube.com/user/Dahoas/videos"
+            ><img src="artifacts/youtube.png" class="myimg"
+          /></a>
           &nbsp;
           <div class="tooltip">
             <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
             <button onclick="myFunction()" onmouseout="outFunc()">
-              <img src="artifacts/gmail.png" class="myimg">
-              </button>
-            </div>
+              <img src="artifacts/gmail.png" class="myimg" />
+            </button>
+          </div>
         </div>
       </footer>
     </div>

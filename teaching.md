@@ -6,7 +6,7 @@ filename: index.md
 
 <img src="artifacts/calvinmath.png">
 
-<p class="light-blue">Math is hard. Let's do it together.</p>
+<p>Math is hard. Let's do it together.</p>
 
 ## Classes
 
