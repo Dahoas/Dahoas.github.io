@@ -26,7 +26,7 @@ Pittsburgh Pawngrabbers: <a href="https://github.com/Dahoas/pghpawngrabbers">Lin
 
 ## Philosophy
 
-A Reivew of Max Tegmark's Ideas on a Theory of Everything: <a href="https://github.com/Dahoas/Dahoas.github.io/blob/main/80_100_Final_Rough_Draft.pdf">[pdf]</a>
+A Reivew of Max Tegmark's Ideas on a Theory of Everything: <a href="https://github.com/Dahoas/Dahoas.github.io/blob/main/artifacts/ATP_Review.pdf">[pdf]</a>
 
 <br/>
 
