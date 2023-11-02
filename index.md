@@ -18,7 +18,7 @@ Hi I'm Alex Havrilla. I am a PhD student at Georgia Tech studying both machine l
 
 My machine learning research encompasses a somewhat broad collection of both theoretical and experimental work undertaken with the ultimate goal of solving hard problems while simultaneously advancing human understanding. My experimental work most often attempts to explore novel connections between powerful techniques in machine learning via fast, principled experimentation. Examples of this type of work include studying various RL techniques for improving LLM reasoning and applications of Fourier Neural Operators to diffusion models for multi-resoltuion image synthesis. Right now, I am particularly interested in RL inspired techniques for improving LLM exploration and reasoning ability.
 
-My theoretical work attempts to formalize the impressive learning abilities of large neural networks in a mathematical/statistical framework which help deepen human understanding and motivate future experimental direction. This type of work most often establishes sample complexity bounds on the generalization error of neural networks solving various tasks.
+My theoretical work attempts to formalize the impressive learning abilities of large neural networks in mathematical/statistical frameworks which help deepen human understanding and motivate future experimental direction. This type of work most often establishes sample complexity bounds on the generalization error of neural networks solving various tasks.
 
 # Papers
 
