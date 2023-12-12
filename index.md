@@ -28,7 +28,7 @@ H. Liu, A. Havrilla, R. Lai, W. Liao. Deep Nonparmaetric Estimation of Intrinsic
 
 A. Havrilla, M. Zhuravynski, A. Tiwari, J. Tow, E. Kim, Q. Anthony, S. Biderman, L. Castricato. trlX: A Framework for Large Scale Reinforcement Learning from Human Feedback. To appear in EMNLP 2023.  
 
-A. Havrilla, K. Rojas, W. Liao, M. Tao, Dual-FNO UNet: Scale-Robust Diffusion Model for Zero-Shot Super-Resolution Image Generation. To appear in Neurips 2023 workshop on diffusion models.
+A. Havrilla, K. Rojas, W. Liao, M. Tao, Dual-FNO UNet: Scale-Robust Diffusion Model for Zero-Shot Super-Resolution Image Generation. To appear in Neurips 2023 workshop on diffusion models. <a href="https://github.com/Dahoas/Dahoas.github.io/blob/main/artifacts/FNO_Diffusion__arXiv_.pdf">[pdf]</a>
 
 A. Havrilla, M. Iyer, Training Large Language Models with Noisy Algorithmic Chain of Thought. To appear in ICML 2023 worksohp on Symbolic and Data driven methods for reasoning in NLP. 
 
