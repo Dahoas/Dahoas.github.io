@@ -1,3 +1,10 @@
+---
+title: Website
+layout: template
+filename: critic_writeup.md
+---
+
+
 # Evaluating the zero-shot verification abilities of GPT-4 on math problems
 
 Recent work [[1]](#references) studies the ability of SOTA large language models to reliably refine incorrect answers to math problems without any external feedback. Correctly refining a solution draft $D$ of a question $Q$ is a difficult task, requiring the model to first decide *when* to refine and then *where* and *how* to refine. SOTA models struggle to reliably decide when to refine incorrect drafts, immediately limiting refinement performance. Working mathematicans are adept at identifying reasoning errors and gauging the expected outcome of a proof strategies. Thus improving the abilitiy of an LLM to act as a zero-shot verifier of reasoning traces is crucial for advanced understanding of mathematics. 
