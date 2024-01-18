@@ -1,24 +1,50 @@
 ---
+layout: page
 title: About
-layout: template
 filename: index.md
 ---
 
-<img src="artifacts/alexh.jpg" class="portrait">
+<style>
+  .container {
+    display: flex; /* Use flexbox for layout */
+  }
 
-## About
+  .text {
+    flex: 1; /* Allow the text to grow and take up space */
+    padding-right: 10px;
+  }
 
-<div>
-Hi I'm Alex Havrilla. I am a PhD student at Georgia Tech studying both machine learning theory and application Machine Learning. I graduated from Carnegie Mellon University with a joint MS/BS in mathematics and an additional major in computer science.
+  .image-container {
+    flex: 1; /* Allow the image container to grow and take up space */
+    display: flex; /* Nested flex container to center the image vertically */
+    justify-content: flex-end; /* Push the image to the right */
+    align-items: center; /* Center the image vertically */
+    border-radius: 50%; /* Makes the container and image circular */
+    border: 2px solid #000; /* Add a border to create the circle effect */
+    overflow: hidden; /* Hide any content outside the circle */
+  }
+
+  .image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+  }
+</style>
+
+<div class="container">
+    <div class="text">
+        <p>Hi, I'm Alex Havrilla, a PhD student at Georgia Tech studying generative modeling in both theory and practice. My research aims to leverage insights from both disciplines to advance each other, ultimately unifying them under a single conceptual framework. 
+I have interned at <a href="https://ai.meta.com/">FAIR</a>, <a href="https://www.microsoft.com/en-us/research/blog/">Microsoft</a>, and am a cofounder of the open-source RLHF research group <a href="https://carper.ai/">CarperAI</a>.</p>
+
+<p>I graduated from Carnegie Mellon University with a joint MS/BS in mathematics and an additional major in computer science.</p>
+    </div>
+    <div class="image-container">
+        <img src="artifacts/alexh.jpg" alt="Picture">
+    </div>
 </div>
 
-<br/>
+# Research
 
-## Research Interests
-
-My machine learning research encompasses a somewhat broad collection of both theoretical and experimental work undertaken with the ultimate goal of solving hard problems while simultaneously advancing human understanding. My experimental work most often attempts to explore novel connections between powerful techniques in machine learning via fast, principled experimentation. Examples of this type of work include studying various RL techniques for improving LLM reasoning and applications of Fourier Neural Operators to diffusion models for multi-resoltuion image synthesis. Right now, I am particularly interested in RL inspired techniques for improving LLM exploration and reasoning ability.
-
-My theoretical work attempts to formalize the impressive learning abilities of large neural networks in mathematical/statistical frameworks which help deepen human understanding and motivate future experimental direction. This type of work most often establishes sample complexity bounds on the generalization error of neural networks solving various tasks.
+My research covers a broad range of topics intersecting with generative modeling including LLMs, Reinforcement Learning, Diffusion Models, and statistical/approxmation theory for generative models. Recently, I've been deeply engaged in exploring ways to enhance the reasoning capabilities of Language Models (LLMs) for knowledge discovery, utilizing techniques from reinforcement learning. On the theoretical front, I focus on approximation and statistical theories for generative models, with a strong emphasis on validating these theories through empirical observations.
 
 # Papers
 
@@ -26,7 +52,7 @@ T. Sawada, D. Paleka, A. Havrilla, P. Vidas, A. Kranias, P. Tadepilli, A. Komats
 
 H. Liu, A. Havrilla, R. Lai, W. Liao. Deep Nonparmaetric Estimation of Intrinsic Data Structures by Chart Autoencoders: Generalization Error and Robustness. To appear in Journal of Applied and Computation Harmonic Analysis. <a href="https://arxiv.org/abs/2303.09863">[pdf]</a> 
 
-A. Havrilla, M. Zhuravynski, A. Tiwari, J. Tow, E. Kim, Q. Anthony, S. Biderman, L. Castricato. trlX: A Framework for Large Scale Reinforcement Learning from Human Feedback. To appear in EMNLP 2023.  
+A. Havrilla, M. Zhuravynski, A. Tiwari, J. Tow, E. Kim, Q. Anthony, S. Biderman, L. Castricato. trlX: A Framework for Large Scale Reinforcement Learning from Human Feedback. To appear in EMNLP 2023. <a href="https://openreview.net/forum?id=TxEV8D0z0r&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DEMNLP%2F2023%2FConference%2FAuthors%23your-submissions)"> [pdf] </a>
 
 A. Havrilla, K. Rojas, W. Liao, M. Tao, Dual-FNO UNet: Scale-Robust Diffusion Model for Zero-Shot Super-Resolution Image Generation. To appear in Neurips 2023 workshop on diffusion models. <a href="https://github.com/Dahoas/Dahoas.github.io/blob/main/artifacts/FNO_Diffusion__arXiv_.pdf">[pdf]</a>
 
@@ -42,4 +68,4 @@ A. Havrilla, P. Nayar, T. Tkocz, Khinchin-type inequalities via Hadamard's facto
 
 A. Havrilla, T. Tkocz, Sharp Khinchin-type inequalities for symmetric discrete uniform random variables. To appear in Israel J. Math. <a href="https://arxiv.org/abs/1912.13345">[pdf]</a>
 
-My Thesis on Sharp Khintchine type Inequalities and some New Results <a href="https://github.com/Dahoas/Dahoas.github.io/blob/main/thesis_draft_3.pdf">[pdf]</a>
+My Thesis on Sharp Khintchine type Inequalities and some New Results <a href="artifacts/thesis_draft_3.pdf">[pdf]</a>

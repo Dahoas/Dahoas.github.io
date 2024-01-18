@@ -21,7 +21,7 @@
 title: Alex Havrilla
 email: alexdahoas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Website for my research (+ any other miscellaneous projects).
+  Website for my research (+ other miscellaneous projects).
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: dahoas.github.io
 url: "https://dahoas.github.io" # the base hostname & protocol for your site, e.g. http://example.com

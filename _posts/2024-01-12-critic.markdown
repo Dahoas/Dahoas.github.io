@@ -13,7 +13,12 @@ In this work we examine the zero-shot abilities of LLMs to generate and *verify*
 
 We begin by evaluating the accuracy of `gpt-3.5-turbo-1106` and `gpt-4-preview-1106` as final answer verifiers. To construct a test set for GSM8K we greedily sample `gpt-3.5-turbo-1106` on all GSM8K test prompts. This forms a set of `(Q,A)` pairs which can be verified for correctness. We find 83% of generated samples correctly solve the question while the remaining 17% are incorrect. We label the correct solutions as "positive" and the rest as "negative". We construct a verification test set for MATH similarly, with 43% of the candidate solutions labeled as "positive" and the rest as "negative". Note, to save on api costs, we use a 1000 sample subset of the full 5000 sample MATH test set which we found to be representative. To evaluate correctness of final answers in GSM8K we use a similar parsing and extraction scheme as used in Minverva [[5]](#references). For MATH we use the same evaluation code as in [[4]](#references).
 
-[ADD EXAMPLE PROMPT HERE]
+<div style="text-align: center;">
+  <figure style="text-align: center;">
+    <img src="/assets/images/critic/step_by_step_prompt.png" alt="Alt Text" width=600 height="Height" style="display:block; margin:0 auto;">
+    <figcaption>Prompt used for step by step verification.</figcaption>
+  </figure>
+</div>
 
 We evaluate several baseline prompting methods. These include single step prompting, where the model generates a single 'positive' or 'negative' token following the (Q, A) pair, chain of thought, and a debate prompt where the model lists pros and cons of the solution before coming to a final verdict. In particular when doing chain of thought, we instruct the verifier to examine each invididual step of the solution before coming a final verdict. This is important, as otherwise even gpt-4 often produces a final verdict and subsequent post-hoc rationalization instead of delaying a final verdict until the end of its completion. Specific prompt formats can be found in [`prompts.py`](https://github.com/Dahoas/gpt-query/blob/critic/projects/critic/prompts.py). All models are sampled at temperature `T = 0`. Results are reported below.
 
@@ -329,3 +334,42 @@ Rechecking mildly improves the first error prediction accuracy of gpt-4 from 24%
 ## Conclusions
 
 In this post we took an in-depth look at the verification abilities of SOTA large language models (`gpt-3.5-turbo-1106` and `gpt-4-turbo-1106`). In addition to being useful for refinement, the ability to gauge a solution's correctness and localize errors is crucial to a deeper understanding of mathematics beyond mere imitation of valid proof. We found that even the best models significantly struggle with precisely identifying sources of error. We see improving this ability as central to the next generation of LLM reasoners.
+
+
+## References
+
+ <ol>
+  <li>
+    <p>Jie Huang, Xinyun Chen, Swaroop Mishra, Huaixiu Steven Zheng, Adams Wei
+Yu, Xinying Song, and Denny Zhou. Large language models can-
+not self-correct reasoning yet. ArXiv, abs/2310.01798, 2023. URL
+https://api.semanticscholar.org/CorpusID:263609132</p>
+  </li>
+  <li>
+    <p>Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo
+Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Rei-
+ichiro Nakano, Christopher Hesse, and John Schulman. Training veri-
+fiers to solve math word problems. ArXiv, abs/2110.14168, 2021. URL
+https://api.semanticscholar.org/CorpusID:239998651.</p>
+  </li>
+  <li>
+    <p>Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart,
+Eric Tang, Dawn Xiaodong Song, and Jacob Steinhardt. Measuring mathe-
+matical problem solving with the math dataset. ArXiv, abs/2103.03874, 2021.
+URL https://api.semanticscholar.org/CorpusID:232134851.</p>
+  </li>
+  <li>
+    <p>Hunter Lightman, Vineet Kosaraju, Yura Burda, Harrison Edwards, Bowen
+Baker, Teddy Lee, Jan Leike, John Schulman, Ilya Sutskever, and Karl
+Cobbe. Let’s verify step by step. ArXiv, abs/2305.20050, 2023. URL
+https://api.semanticscholar.org/CorpusID:258987659.</p>
+  </li>
+  <li>
+    <p>Aitor Lewkowycz, Anders Andreassen, David Dohan, Ethan Dyer, Hen-
+ryk Michalewski, Vinay Venkatesh Ramasesh, Ambrose Slone, Cem Anil,
+Imanol Schlag, Theo Gutman-Solo, Yuhuai Wu, Behnam Neyshabur,
+Guy Gur-Ari, and Vedant Misra. Solving quantitative reasoning prob-
+lems with language models. ArXiv, abs/2206.14858, 2022. URL
+https://api.semanticscholar.org/CorpusID:250144408.</p>
+  </li>
+</ol>

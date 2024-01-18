@@ -1,6 +1,6 @@
 ---
+layout: page
 title: Other Projects
-layout: template
 filename: otherprojects.md
 ---
 
