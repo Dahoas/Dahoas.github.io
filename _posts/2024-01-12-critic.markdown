@@ -338,6 +338,9 @@ Overall gpt-4 edges out maj@5 with an 80% versus 78% successful selection rate. 
 
 In this post we took an in-depth look at the verification abilities of SOTA large language models (`gpt-3.5-turbo-1106` and `gpt-4-turbo-1106`). In addition to being useful for refinement, the ability to gauge a solution's correctness and localize errors is crucial to a deeper understanding of mathematics beyond mere imitation of valid proof. We found that while the best models do a good job of identifying final answer accuracy, they have a higher rate of false positives than negatives. Additionally, at the step level verifiers struggle to correctly identify the first error, getting less than 30% accuracy even after being allowed to re-check their verification for mistakes.
 
+## Acknowledgements
+
+Many thanks to Daniel Paleka and Louis Castricato for providing detailed feedback on a draft version of this post.
 
 ## References
 
@@ -377,7 +380,19 @@ https://api.semanticscholar.org/CorpusID:250144408.</p>
   </li>
 </ol>
 
-
+Cite this post as
+```
+@misc{havrilla_2024_10794598,
+  author       = {Havrilla, Alex},
+  title        = {{Evaluating the zero-shot verification abilities of 
+                   GPT-4 on math problems}},
+  month        = mar,
+  year         = 2024,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.10794598},
+  url          = {https://doi.org/10.5281/zenodo.10794598}
+}
+```
 
 <a href="https://doi.org/10.5281/zenodo.10794598"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10794598.svg" alt="DOI"></a>
 
