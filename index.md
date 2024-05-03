@@ -48,15 +48,19 @@ My research covers a broad range of topics intersecting with generative modeling
 
 # Papers
 
+A. Havrilla, S. C. Raparthy, C. Nalmpantis, J. Dwivedi-Yu, M. Zhuravinskyi, E. Hambro, R. Raileanu, GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements. To appear in ICML 2024. <a href="https://arxiv.org/abs/2402.10963">[pdf]</a>
+
+A. Havrilla, Y. Du, S. C. Raparthy, C. Nalmpantis, J. Dwivedi-Yu, M. Zhuravinskyi, E. Hambro, S. Sukhbaatar, R. Raileanu, Teaching Large Language Models to Reason with Reinforcement Learning. To appear on ArXiv. <a href="https://arxiv.org/abs/2403.04642">[pdf]</a>
+
 T. Sawada, D. Paleka, A. Havrilla, P. Vidas, A. Kranias, P. Tadepilli, A. Komatsuzaki, ARB: An Advanced Reasoning Benchmark for Large Language Modeling. To appear in Neurips 2023 MathAI workshop. <a href="https://arxiv.org/abs/2307.13692">[pdf]</a>
 
 H. Liu, A. Havrilla, R. Lai, W. Liao. Deep Nonparmaetric Estimation of Intrinsic Data Structures by Chart Autoencoders: Generalization Error and Robustness. To appear in Journal of Applied and Computation Harmonic Analysis. <a href="https://arxiv.org/abs/2303.09863">[pdf]</a> 
 
 A. Havrilla, M. Zhuravynski, A. Tiwari, J. Tow, E. Kim, Q. Anthony, S. Biderman, L. Castricato. trlX: A Framework for Large Scale Reinforcement Learning from Human Feedback. To appear in EMNLP 2023. <a href="https://openreview.net/forum?id=TxEV8D0z0r&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DEMNLP%2F2023%2FConference%2FAuthors%23your-submissions)"> [pdf] </a>
 
-A. Havrilla, K. Rojas, W. Liao, M. Tao, Dual-FNO UNet: Scale-Robust Diffusion Model for Zero-Shot Super-Resolution Image Generation. To appear in Neurips 2023 workshop on diffusion models. <a href="https://github.com/Dahoas/Dahoas.github.io/blob/main/artifacts/FNO_Diffusion__arXiv_.pdf">[pdf]</a>
+A. Havrilla, K. Rojas, W. Liao, M. Tao, Dual-FNO UNet: Scale-Robust Diffusion Model for Zero-Shot Super-Resolution Image Generation. To appear in Neurips 2023 workshop on diffusion models. <a href="https://arxiv.org/abs/2401.06144">[pdf]</a>
 
-A. Havrilla, M. Iyer, Training Large Language Models with Noisy Algorithmic Chain of Thought. To appear in ICML 2023 worksohp on Symbolic and Data driven methods for reasoning in NLP. 
+A. Havrilla, M. Iyer, Training Large Language Models with Noisy Algorithmic Chain of Thought. To appear in ICML 2023 worksohp on Symbolic and Data driven methods for reasoning in NLP.  <a href="https://arxiv.org/abs/2402.04004">[pdf]</a>
 
 S. Biderman, A. Tikiwari, L. Castricato, E. Hallahan, A. Havrilla, Q. Anthony, E. Raff, What Makes a Good Multimodal Embedding Space? Theoretical and Empirical Insights from Topology. To appear on ArXiv.
 
