@@ -48,6 +48,20 @@ My research covers a broad range of topics intersecting with generative modeling
 
 # Papers
 
+A. Havrilla, A. Dai, L. O'Mahony, K. Oostermeijer, V. Zisler, A. Albalak, F. Milo, S. Raparthy, K. Gandhi, B. Abbasi, D. Phung, M. Iyer, D. Mahan, C. Blagden, S. Gureja, M. Hamdy, W. Li, G. Paolini, P. Ammanamanchi, E. Meyerson, \textit{Surveying the Effects of Quality, Diversity, and Complexity in Synthetic Data From Large Language Models}. ArXiv. <a href="https://arxiv.org/abs/2412.02980">[pdf]</a>
+
+A. Havrilla, D. Melis, N. Fusi. \textit{Interactive Causal Discovery through Large Language Models.} Submitted to ICML 2025. <a href="https://arxiv.org/abs/2502.17189">[pdf]</a>
+
+A. Havrilla, S. Raparthy, C. Nalmpantis, J. Yu, M. Zhuravinskyi, E. Hambro, R. Railneau, \textit{GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements}. Accepted to ICML 2024. <a href="https://arxiv.org/abs/2402.10963">[pdf]</a>
+
+A. Havrilla, W. Liao, \textit{Predicting Scaling Laws with Statistical and approximation Theory for Transformer Neural Networks}. Accepted to Neurips 2024. <a href="https://arxiv.org/abs/2411.06646">[pdf]</a>
+
+A. Havrilla, Y Du, S. Raparthy, C. Nalmpantis, J. Yu, M. Zhuravinskyi, E. Hambro, R. Railneau, \textit{Teaching Large Language Models to Reason with Reinforcement Learning}. Submitted to Neurips 2024. <a href="https://arxiv.org/abs/2403.04642">[pdf]</a>
+
+Y. Du, A. Havrilla, R. Railneau, \textit{A study in RL for LLM reasoning}. Accepted to Neurips 2023 ICBINB workshop. <a href="https://openreview.net/forum?id=tCZFmDyPFm">[pdf]</a>
+
+H. Liu, A. Havrilla,  R. Lai,  W. Liao, \textit{Deep Nonparametric Estimation of Intrinsic Data Structures by Chart Autoencoders: Generalization Error and Robustness}. Accepted to  Applied and Computational Harmonic Analysis (2023). <a href="https://arxiv.org/abs/2303.09863">[pdf]</a>
+
 T. Sawada, D. Paleka, A. Havrilla, P. Vidas, A. Kranias, P. Tadepilli, A. Komatsuzaki, ARB: An Advanced Reasoning Benchmark for Large Language Modeling. To appear in Neurips 2023 MathAI workshop. <a href="https://arxiv.org/abs/2307.13692">[pdf]</a>
 
 H. Liu, A. Havrilla, R. Lai, W. Liao. Deep Nonparmaetric Estimation of Intrinsic Data Structures by Chart Autoencoders: Generalization Error and Robustness. To appear in Journal of Applied and Computation Harmonic Analysis. <a href="https://arxiv.org/abs/2303.09863">[pdf]</a> 
