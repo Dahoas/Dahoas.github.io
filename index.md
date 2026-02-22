@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Research
 filename: index.md
 ---
 
