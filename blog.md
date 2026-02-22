@@ -4,7 +4,7 @@ title: Random Chains of Thought
 filename: blog.md
 ---
 
-A collection of posts highlighting negative (yet illuminating) research findings.
+Thoughts on math, ML, and other random things.
 
 ## 2024
 
